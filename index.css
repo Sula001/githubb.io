@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    display: block;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.d-none {
+    display: none !important; 
+}
+
+.d-block {
+    display: block !important;
+}
